@@ -1,0 +1,164 @@
+body {
+    background-image: url(./asset/background.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    text-transform: capitalize !important;
+    font-weight: 900 !important;
+}
+
+
+nav {
+    margin-top: 1em !important;
+}
+
+#logo {
+    font-size: 1.8em !important;
+}
+
+nav a {
+    color: rgba(150, 204, 57, 1) !important;
+    font-weight: bolder !important;
+    font-size: 1.2em !important;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+section {
+    width: 60%;
+    height: 100vh;
+    color: rgba(166, 77, 121, 1) !important;
+    font-size: 1.5em !important;
+    margin-top: 1.5em;
+    font-weight: 700;
+}
+
+.section1 {
+    margin-top: -2em;
+}
+
+.section1-box h1 {
+    font-size: 1.8em !important;
+}
+
+.section2 {
+    width: 75%;
+}
+
+.section3 ul li {
+    list-style: none !important;
+    width: 100% !important;
+}
+
+.section3 ul li a {
+    text-decoration: none !important;
+    color: rgba(166, 77, 121, 1) !important;
+    margin-left: 1em;
+}
+
+.section4-box {
+    margin-left: 1.5em;
+}
+
+
+.section4 h1 {
+    display: inline-block;
+    border-bottom: 0.2em solid rgba(150, 204, 57, 1);
+}
+
+.section4 input {
+    width: 70%;
+    height: 10vh;
+    border: 2px solid rgb(166, 77, 121);
+    border-radius: 50px !important;
+    padding-left: 20px !important;
+    outline: none !important;
+    background-color: rgb(237, 219, 228);
+    font-size: 0.8em !important;
+    margin-top: 1.5em !important;
+}
+
+ input textarea{
+    height: 0.5em !important;
+    padding-top: 1em !important;
+    border-radius: 20px !important;
+} 
+
+.section4 form button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 15px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86 );
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ***************************** @media screen ***************************** */
+
+@media only screen and (max-width: 425px) {
+
+    section {
+        width: 90% !important;
+    }
+
+    .section3 {
+        width: 100% !important;
+    }
+
+    .section3 ul li {
+        font-size: 0.9em !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    .section3 ul li a {
+        margin-left: 0.3em;
+    }
+
+    .section4 {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    body {
+        font-size: 1em !important;
+    }
+    section{
+        width: 100% !important;
+    }
+    .section3{
+        font-size: 1em !important;
+    }
+    .section3 ul{
+        margin-top: 5em !important;
+    }
+    .section3 ul li{
+        margin-bottom: 2em !important;
+    }
+    .section4 input{
+        width: 95%;
+        margin-left: -0.5em;
+    }
+}
