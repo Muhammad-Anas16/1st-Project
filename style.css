@@ -47,9 +47,18 @@ section {
     width: 75%;
 }
 
+.section2-box{
+    margin-top: 49vh !important;
+}
+
+.section3 ul{
+    margin-top: 49vh !important;
+}
+
 .section3 ul li {
     list-style: none !important;
     width: 100% !important;
+    margin-bottom: 1.5em !important;
 }
 
 .section3 ul li a {
